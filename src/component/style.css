@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.title{
+    border: 2px dashed;
+    border-radius: 25px;
+    width: 75%;
+    padding: 2%;
+}
+.users{
+    display: flex;
+    flex-direction:row ;    
+    justify-content: center;
+    margin: 5%;
+}
+
+.block{
+    border-radius: 25px;
+    background-color: #007bff;
+    margin: 2%;
+    padding: 1%;
+    color: white;
+    width: 25%;
+}
+.sum{
+    color: red;
+}
