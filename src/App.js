@@ -1,17 +1,19 @@
-import './App.css';
-import Navbar from './component/navbar';
-import ListofUsers from './component/listusers';
+import logo from "./logo.svg";
+import "./App.css";
+import Photo from "./Component/Profile/ProfilePhoto";
+import FullName from "./Component/Profile/FullName";
+import Adress from "./Component/Profile/Adress";
 
 function App() {
   return (
     <div className="App">
-
-      {/* Navbar  */}
-      <Navbar />
-
-
-      {/* list of users  */}
-      <ListofUsers />
+      <div className="photo">
+        <Photo />
+      </div>
+      <div className="name">
+        <FullName />
+        <Adress />
+      </div>
     </div>
   );
 }
